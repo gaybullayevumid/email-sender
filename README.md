@@ -3,7 +3,6 @@
 A **framework-free Python application** for sending **HTML emails via SMTP**.  
 Built with a clean structure, secure configuration, and reusable components.
 
----
 
 ## 🚀 Features
 
@@ -13,7 +12,6 @@ Built with a clean structure, secure configuration, and reusable components.
 - TLS encryption
 - Framework-free architecture
 
----
 
 ## 🛠 Tech Stack
 
@@ -22,7 +20,6 @@ Built with a clean structure, secure configuration, and reusable components.
 - python-dotenv
 - jinja2
 
----
 
 ## ⚙️ Setup
 
@@ -30,17 +27,17 @@ Built with a clean structure, secure configuration, and reusable components.
 pip install -r requirements.txt
 ```
 
-Create a .env file:
+## Create a .env file:
 
 ```env
 EMAIL=your_email@gmail.com
 EMAIL_PASSWORD=APP_PASSWORD
 ```
 
-Gmail requires an App Password.
+- Gmail requires an App Password.
 
 
-▶️ Run
+## ▶️ Run
 
 ```shell
 python main.py
