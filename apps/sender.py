@@ -31,7 +31,7 @@ class EmailSender:
 
         with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:
             server.starttls(context=context_ssl)
-            self.login(self.email, self.password)
+            server.login(self.email, self.password)
             server.send_message(msg)
 
 
